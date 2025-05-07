@@ -1,7 +1,7 @@
 <!-- src/views/Home.vue -->
 <template>
   <div class="container">
-    <h1>To-Do List</h1>
+    <h1>To-Do List App</h1>
     <input
       v-model="newTodo"
       class="input"

@@ -11,9 +11,7 @@ export const useTodoStore = defineStore('todo', {
       this.todos.push({ id: uuidv4(), text, completed: false })
     },
     removeTodo(id) {
-      console.log(this.todos);
     	this.todos = this.todos.filter(todo => todo.id !== id)
-      console.log(this.todos);
     },
     toggleComplete(id) {
       const todo = this.todos.find(t => t.id === id)
